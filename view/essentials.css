@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-rows: 18vh auto 12vh;
+    margin: 0;
+}
+
+header {
+    background-color: bisque;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: aliceblue;
+}
