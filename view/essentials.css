@@ -6,16 +6,21 @@ body {
     'footer';
     grid-template-rows: 18vh auto 12vh;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: bisque;
+    background-color: #e7e1e0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 main {
-    background-color: aquamarine;
+    background-color: #FCF6F5;
+
 }
 
 footer {
-    background-color: aliceblue;
+    background-color: #e7e1e0;
 }
